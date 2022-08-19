@@ -29,11 +29,34 @@ namespace Inheritance
              * Creatively display the class member values 
              */
 
+            Bird myBird = new Bird();
+            myBird.canFly = true;
+            myBird.hasWings = true;
+            myBird.wingColor = "red";
+            myBird.beakAmount = 1;
+            Console.WriteLine($"My bird has these features:  ");
+            Console.WriteLine($"Has wings: {myBird.hasWings}");
+            Console.WriteLine($"Can fly:   {myBird.canFly}"); 
+            Console.WriteLine($"Has how many beaks? {myBird.beakAmount}");
+            Console.WriteLine($"Wing color:  {myBird.wingColor}");
+            Console.WriteLine();
+
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
+
+            Reptile myReptile = new Reptile();
+            myReptile.canSwim = true;
+            myReptile.hasScales = true;
+            myReptile.isColdBlooded = true;
+            myReptile.hasTail = true;
+            Console.WriteLine($"My reptile has all of these features:  ");
+            Console.WriteLine($"Can Swim: {myReptile.canSwim}");
+            Console.WriteLine($"Has scales: {myReptile.hasScales}");
+            Console.WriteLine($"Is cold blooded: {myReptile.isColdBlooded} ");
+            Console.WriteLine($"Has a tail: {myReptile.hasTail}!");
         }
     }
 }
